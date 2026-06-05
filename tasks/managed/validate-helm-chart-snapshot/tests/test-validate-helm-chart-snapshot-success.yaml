@@ -50,7 +50,7 @@ spec:
               value: "$(params.trustedArtifactsDebug)"
         steps:
           - name: add-snapshot
-            image: quay.io/konflux-ci/release-service-utils@sha256:3cb03b14ac9d90ff27070036ce2b50712e65aa285daeb28852254a745bb25dfc
+            image: quay.io/konflux-ci/release-service-utils@sha256:e2578e2c0ec60a9729783b51b6b5968b92e6b16d1d0351fdba54d131b11d8ccb
             script: |
               #!/usr/bin/env bash
               set -eux
