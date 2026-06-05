@@ -188,7 +188,7 @@ spec:
           value: $(params.SINGLE_COMPONENT_CUSTOM_RESOURCE_NS)
         - name: SNAPSHOT_PATH
           value: $(params.SNAPSHOT_PATH)
-      image: quay.io/conforma/cli@sha256:2f5bed7fd51f678ea960aaf5bed033412b7d207a83bb1b02b108be5ca71a058d
+      image: quay.io/conforma/cli@sha256:022f1abc1a40ad74a7a62664d47fa27b99d842a3531efcb91f4ecd66f8e3c398
       computeResources:
         limits:
           memory: 128Mi
